@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+      button {
+        width:70px;
+        height:50px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div class="container" style="margin-top: 20px;">
+        <div class="display">
+            <button type="button" style="width: 292px;" class="btn btn-outline-primary" name="button"id="display"></button>
+        </div>
+        <div class="keys">
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(1);">1</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(2);">2</button>
+            <button type="button" class="btn btn-outline-success"name="button" onclick="my_f(3);">3</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(4);">4</button>
+            <br>
+            
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(5);">5</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(6);">6</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(7);">7</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(8);">8</button>
+            <br>
+    
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(9);">9</button>
+            <button type="button" class="btn btn-outline-success" name="button" onclick="my_f(0);">0</button>
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('.');">.</button>
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('+');">+</button>
+            <br>
+            
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('-');">-</button>
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('*');">*</button>
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('/');">/</button>
+            <button type="button" class="btn btn-outline-warning" name="button" onclick="my_f('=');">=</button>
+            <br>
+        <div>
+            <button type="button" style="width: 145px;" class="btn btn-outline-dark" name="button" onclick="document.getElementById('display').innerHTML='';">reset</button>
+            <button type="button" style="width: 145px;"class="btn btn-outline-danger" name="button" onclick="my_f('clear');">clear</button>
+
+        </div>
+            
+
+        </div>
+
+    </div>
+    
+
+    
+  </body>
+</html>

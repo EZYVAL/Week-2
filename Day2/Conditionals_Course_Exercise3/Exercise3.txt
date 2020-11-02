@@ -1,0 +1,2 @@
+the computer will check every case a will return the rigth statment
+Guess what will be the result before checking it: the result should be "Right!"
